@@ -19,8 +19,8 @@ Essential Features
  	Promotions and Loyalty Programs: Information on current deals, discounts, or a loyalty rewards system.
 
 Design and Integration of user interface
-	Color Scheme: on this website I have applied a color that is orange because orange is a color that is eye catching towards customers who want to view the website. 
-	Typography: In my website I have used the Sans Serif because the font does not have the little strokes at the end and the reason why I used this type of font is because it is clean and modern and it is great for anyone who will view the site either using a phone or laptop 
+	Color Scheme: In the website i ended up changing a few things concerning the color scheme, i change it and added a grey color in the navigation bar
+	Typography: In my website I have used a feature in Css that enables me to use different kinds of font, I used font like font family which clarifies the text that i will be editing. I used the padding and margin so that my web page can be aligned properly and viewers can see whether using a pc or smartphone.
 	Layout: The website design is based on the logo, and it was designed to be like it. For example, I have made a logo on the index page which has bold letters in the title of the page, and I have endorsed a color that is unique and different from other restaurants. 
 	User Experience: the navigation of the website is not a complicated one where users can move from one page to another by selecting either home, index, menu etc. On the website the other pages have the same color scheme which is orange
 Technical Requirements 
