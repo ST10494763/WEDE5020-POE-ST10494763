@@ -5,54 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
-    <h1>Good Burger</h1>
     
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="drinks.html">Drinks</a></li>
-        </ul>
-
+     <nav class="navbar"> 
+        <h2 class="logo">Good<span>Burger</span></h2>
+    <div class="nav-buttons">
+      <Ul>
+      <li><a href="index.html"><button>Index</button></a></li>
+      <li><a href="menu.html"><button>Menu</button></a></li>
+      <li><a href="Drinks.html"><button>Drinks</button></a></li>
+      <li><a href="contact.html"><button>Contact</button></a></li>
+       <li><a href="FAQ.html"><button>FAQ</button></a></li>
+       <li><a href="enquiry.html"><button>Enquiry</button></a></li>
+       </Ul>
+    </div>
+  </nav>
+  <button onclick="changetext()">GoodBurger</button>    
+              <button onclick="orderBurger()">Place Order</button> 
+              <button onclick="showSpecial()">Show special deal</button> 
+     <Div id="special" class="hidden">🔥 Buy 1 Get 1 Free on all Cheeseburgers! 🔥</Div>
     </nav>
+     
     <main>
+
+  <section id="extra-requests">
+  <h3> Extra Burger Boosts</h3>
+  <ul id="requests-list">
+    <li><strong>GrillBot.txt:</strong> Tells search engines which parts of the menu to crawl 🔍🍔</li>
+    <li><strong>SizzleMap.xml:</strong> Serves up my site’s structure like a well-layered burger 🍞🥬🧀</li>
+    <li><strong>Speed Grill:</strong> Makes sure my site loads faster than a fired-up griddle ⚡🔥</li>
+    <li><strong>Safety Sauce:</strong> Keeps customer data locked up like a secret recipe 🧂🔒</li>
+  </ul>
+  <button id="optimize-btn">Grill It Now</button>
+  <p id="status-message"></p>
+</section>
+
+
+
 <!--section-->
 <!--div-->
-        <section id="FAQ">
-            <h2>FAQ</h2>
-            <div class="section">
-            <h3>How do I sign up?</h3>
-            <p>You can get our Information on our website by typing down www.Gburger.ca.za</p>
-            </div>
-            <div class="section">
-                <h3>How do I know if there is GBurgers delivery in my area</h3>
-            <p>You can find out about that information on the website or you can call any near by stores</p>
-            </div>
-            <div class="section">
-                <h3>How do I order</h3>
-            <p>You just following the steps given by the application</p>
-            </div>
-            <div class="section">
-                <h3>How can I edit an adress</h3>
-            <p>You can edit your address by heading to contact list and adding information</p>
-            </div>
-            <div class="section">
-                <h3>How long will delivery take</h3>
-            <p>It is approxiamtly 35 minutes from calling time</p>
-            </div>
-            <div class="section">
-                <h3>What are the payment options</h3>
-            <p>You can process payment either at the counter or when the delivery car has come to your location</p>
-            </div>
-        </section>
-    </main>
+       <div class="faq-container">
+    <h1>GBurgers FAQs</h1>
 
-  <div class="footer"> <footer>Good Burger Restuarant &copy; 2025 All rights reserved</footer></div> 
+    <div class="faq-item">
+      <button class="faq-question">What are your opening hours?<span>+</span></button>
+      <div class="faq-answer">We’re open Monday to Sunday from 10 AM to 10 PM.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do you offer vegetarian or vegan options?<span>+</span></button>
+      <div class="faq-answer">Yes! We serve delicious plant-based burgers, salads, and vegan sides.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Can I place an order online?<span>+</span></button>
+      <div class="faq-answer">Absolutely! Visit our website or use Uber Eats or Mr D Food to order.</div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Where are you located?<span>+</span></button>
+      <div class="faq-answer">We’re right in the heart of Potchefstroom at 123 Burger Lane.</div>
+    </div>
+  </div>
+
+ <script src="jquery.js"></script>
+<script src="seo.js"></script>
+
+<div class="page-wrapper">
+    <!-- header, nav, content go here -->
+  </div>
+  <footer>
+    © 2025 Goodburger Restaurant — All Rights Reserved
+  </footer>
+
 </body>
 </html>
