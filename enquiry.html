@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry</title>
+    <link rel="stylesheet" href="enquirt.css">
+</head>
+<body>
+ <div class="form-container">
+    <h2>Service/Product/Volunteer/Sponsor Enquiry</h2>
+    <form id="Enquiryform">
+      <label for="name">Full Name:</label>
+      <Input type="text" id="name" required />
+
+
+    <label for="email">Email</label>
+    <input type="email" id="email" required />
+    
+    <Label for="catergory">Enquiry Type:</Label>
+    <select id="catergory" required>
+      <option value="">Select</option>
+      <option value="Service">Select</option>
+      <option value="Product">Product</option>
+      <option value="Volunteer">Volunteer</option>
+      <option value="Sponsor">Sponsor</option>
+    </select>
+      
+
+     <button type="submit">Submit Enquiry</button>
+    </form>
+    <div id="EnquiryResponse"></div>
+</div>
+    <script src="seo.js"></script>
+</body>
+</html>
