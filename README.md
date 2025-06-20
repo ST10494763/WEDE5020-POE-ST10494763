@@ -27,12 +27,13 @@ Technical Requirements
 The website has a google account name which you can type as Goodburger.co.za. The reason why I used this name is because it represents the site, and it is unique and has not been registered. I will use the framework of the like of Html to first develop the site and make some of the specific designs on C++ and java script.
 Timeframe
 2025 March					
-From the 31st till the 7th of April will finish planning  					
+From the 31st till the 7th of April will finish planning 
 
 						
 	 7-30 April 2035
-	7 May 2025
-	
-	I will do C++ AND Java for specifications		I will be done with everything needed		
+	7 M	I will do C++ AND Java for specifications		I will be done with everything needed		
 Budget
 The budget of this website is plus minus R50000 because this was the given capital that was given to me.
+In my formative feedback 2 i recieved feedback about my pages not being responsive and i have made changes to them using CSS where now they are able to be viewed in a phone or table or pc, because as a developer its important that the ender user is able to get a friendly user interface. 
+Portfolio
+In my final stage of my website i have included Javascript because this will bring functionality on the website. In my background i used the Bgimage that is the websites logo beacuse it describes the uniqueness of the website. I use enquiry forms that are responsive to users and they are able to enter data on the site. I have add SEO that optimize the performance of the website making it more clear for a user to access it, because it is important that the user is able to input what they want in the website so they can get orders. In my website i have made changes like a button and i have added images that dispay animation and they show the ingredients of the food which is important that the customers know what the are buying. I have added a security to protect our customers information because if they are not protected it may mean that i failed to do my job as a developer. I have included interactive maps that show the geographic landscape of the resturant . and i have add more color schemes that add brightness to the website. 
