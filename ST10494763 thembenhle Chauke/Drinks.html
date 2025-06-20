@@ -5,50 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drinks</title>
     <link rel="stylesheet" href="style.css">
+     <script src="jquery.js"></script>
 </head>
 <body>
 
-    <h1>Drinks menu</h1>
     <!--nav bar-->
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="drinks.html">Drinks</a></li>
-        </ul>
-
-    </nav>
-    <main>
-        <h3>This is our drinks menu</h3>
-        
-    </main>
-    </body>
-    <!--div-->
-    
-    <main>
-        <div class="box"> 
-    <img src="Image/Cocktails Prices.jpg"style="width: 300px;height: 400px;">
-        </div>
+     <nav class="navbar"> 
+        <h2 class="logo">Good<span>Burger</span></h2>
+    <div class="nav-buttons">
+      <Ul>
+      <li><a href="index.html"><button>Index</button></a></li>
+      <li><a href="menu.html"><button>Menu</button></a></li>
+      <li><a href="Drinks.html"><button>Drinks</button></a></li>
+      <li><a href="contact.html"><button>Contact</button></a></li>
+       <li><a href="menu.html"><button>menu</button></a></li>
+       <li><a href="enquiry.html"><button>Enquiry</button></a></li>
+       </Ul>
     </div>
+  </nav>
 
-     <div class="box"> 
-    <img src="Image/Slushes.jpg" style="width: 300px;height: 400px;">
-     </div>
 
-     <div class="box">
-    <img src="Image/Coke Slashy.jpg"style="width: 300px;height: 400px;">
-     </div>
+    <!--div-->
+    <section id="burger-gallery">
+    <h2>Our Drinks gallery</h2>
+    <div class="gallery">
+      <div class="Drinks-card" onclick="showInfo(0)">
+        <img src="Image/Cocktails.jpeg" alt="Cocktails" />
+        <p>Cocktails</p>
+      </div>
+      <div class="Drinks-card" onclick="showInfo(1)">
+        <img src="Image/Coke Slashy.jpg" alt="Coke Slashy" />
+        <p>Coke Slashy</p>
+      </div>
+      <div class="Drinks-card" onclick="showInfo(2)">
+        <img src="Image/Slushes.jpg" alt="sluches" />
+        <p>Slushes</p>
+      </div>
+      <div class="Drinks-card" onclick="showInfo(3)">
+        <img src="Image/berry lemonade" alt="Berry lemonade" />
+        <p>Berry lemonade</p>
+      </div>
+      <div class="Drinks-card" onclick="showInfo(4)">
+        <img src="Image/fanta slushy.jpeg" alt="fanta Slushy" />
+        <p>Fanta slushy</p>
+      </div>
+    </div>
+    <div id="popup" class="popup">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h3 id="Drinks-title"></h3>
+      <p id="Drinks-description"></p>
+    </div>
+  </section>
 
-     <div class="box">
-    <img src="Image/Cocktails.jpeg"style="width: 300px;height: 400px;">
-     </div>
-    </main>
 
     
-
+   
     <div class="footer"><footer>Good Burger Restuarant &copy; 2025 All rights reserved</footer></div>
 </body>
 </html>
