@@ -4,54 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Good burger</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content=" GoodBurger serves top quality using fresh, local ingrediants. Order online or vist us today!.. ">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
 
-    <h1>Good Burger</h1>
-    
-    <!--Nav-->
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="drinks.html">Drinks</a></li>
-        </ul>
-
-    </nav>
-    <!--main-->
-    <main>
-    <aside>
-        <h2>GBurgers Locations</h2>
-        <P>Mbombela Durban Pretoria Cape town Rustenburg</P>
-    </aside>
-    <section>
-        <h2>What we offer</h2>
-        <P>Feast your eyes and your mouth because We have the best mouth watering burgers in the world</P>
-    </section>
-    <aside>
-        <h2>What should you expect</h2>
-        <P>GBurgers offers a one of a kind burger that you can not resist because its eye catchy and creative, so our aim is to make your stomachs happy</P>
-    </aside>
-
-    </main>
-
-   <!--div-->
-    <div class="social">
-        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+  <nav class="navbar"> 
+        <h2 class="logo">Good<span>Burger</span></h2>
+    <div class="nav-buttons">
+      <Ul>
+      <li><a href="index.html"><button>Index</button></a></li>
+      <li><a href="menu.html"><button>Menu</button></a></li>
+      <li><a href="Drinks.html"><button>Drinks</button></a></li>
+      <li><a href="contact.html"><button>Contact</button></a></li>
+       <li><a href="FAQ.html"><button>FAQ</button></a></li>
+       <li><a href="enquiry.html"><button>Enquiry</button></a></li>
+       </Ul>
     </div>
-<!--div class-->
+  </nav>
+<header>
+  <h1>GoodBurger</h1>
+  <input type="text" id="searchinput" placeholder="seach burgers..........?">
+</header>
+    <main id="burgerlist"></main>
 
-  <div class="footer">  <footer>Good Burger Restuarant &copy; 2025 All rights reserved</footer>
+<button onclick="changetext()">GoodBurger</button>    
+              <button onclick="orderBurger()">Place Order</button> 
+              <button onclick="showSpecial()">Show special deal</button> 
+     <Div id="special" class="hidden">🔥 Buy 1 Get 1 Free on all Cheeseburgers! 🔥</Div>
+    </nav>
+    
+    <h1 id="title">Welcome to the GoodBurger joint</h1>
+    <!--Nav-->
+
+
+
+    <!--main-->
+  <main id="home">
+    <section class="intro">
+      <h2>Welcome to <a href="https://goodburger.com" target="_blank" style="color: #d35400; text-decoration: none;">GoodBurger!</a></h2>
+      <p>Where every bite is a taste of happiness. 😋</p>
+    </section>
+    
+     <section id="menu">
+      <h3>Our Menu</h3>
+      <ul>
+        <li><strong>Classic Burger:</strong> Juicy beef patty, cheddar, tomato, lettuce, and GoodSauce.</li>
+        <li><strong>Pizza Burger:</strong> Grilled pizza patty with avocado and greens and melted cheese.</li>
+        <li><strong>Double burger:</strong> Double stacked with chicken patty and with melted cheese overload!</li>
+        <li><strong>triple burger:</strong> Triple stacked with beef patty and melted with cheese overload!</li>
+        <li><strong>Fries:</strong> chrispy potato fries dipped with all the elements of goodness!</li>
+      </ul>
+    </section>
+
+    <section id="seo">
+      <h3>How We Optimize for You</h3>
+      <ul>
+        <li><strong>Keyword-rich Titles:</strong>  “Best Burgers in Town –”</li>
+        <li><strong>Responsive Design:</strong> Perfect on phones, tablets, and desktops</li>
+        <li><strong>Fast Load Times:</strong> Optimized images and lean code</li>
+      </ul>
+    </section>
+  </main>
+   
+  <h4>Explore Mostert Street, Nelspruit</h4>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+
+
+<div class="page-wrapper">
+    <!-- header, nav, content go here -->
   </div>
+  <footer>
+    © 2025 Goodburger Restaurant — All Rights Reserved
+  </footer>
 
-
-
+<script src="jquery.js"></script>
+<script src="seo.js"></script>
 </body>
 </html>
