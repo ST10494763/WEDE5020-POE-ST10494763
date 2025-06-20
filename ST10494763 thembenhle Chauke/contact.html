@@ -6,25 +6,33 @@
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styless2.css">
+     <script src="jquery.js"></script>
 </head>
 <body>
 
     <h1>Contact</h1>
     <!--ul-->
     <!--li-->
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="FAQ.html">FAQ</a></li>
-            <li><a href="drinks.html">Drinks</a></li>
-        </ul>
-        <!--nav-->
-        <!--Div-->
-        <!--main-->
+    <nav class="navbar"> 
+        <h2 class="logo">Good<span>Burger</span></h2>
+    <div class="nav-buttons">
+      <Ul>
+      <li><a href="index.html"><button>Index</button></a></li>
+      <li><a href="menu.html"><button>Menu</button></a></li>
+      <li><a href="Drinks.html"><button>Drinks</button></a></li>
+      <li><a href="contact.html"><button>Contact</button></a></li>
+       <li><a href="FAQ.html"><button>FAQ</button></a></li>
+       <li><a href="enquiry.html"><button>Enquiry</button></a></li>
+       </Ul>
+    </div>
+  </nav>
+
+<button onclick="changetext()">GoodBurger</button>    
+              <button onclick="orderBurger()">Place Order</button> 
+              <button onclick="showSpecial()">Show special deal</button> 
+     <Div id="special" class="hidden">🔥 Buy 1 Get 1 Free on all Cheeseburgers! 🔥</Div>
     </nav>
+     
     <div class="class container--">
         <section class="contact">
           <div class="class container-">
@@ -55,18 +63,30 @@
           </div>
         </section>
       </div>
-    <main>
-        <h3>This is our Contact Information</h3>
-        <p><b>call: +271348433</b></p>
-<br></br>
-<p>email:GoodBurger@gmail.com</p>
-<p>Our Whatsapp number 07134587368</p>
+  
+<div class="form-container">
+    <h1>Contact Goodburger 🍔</h1>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+      <p id="formStatus"></p>
+    </form>
+  </div>
 
- Written by <a href="GBurgers@gmail.com">Good Burger</a>. <br>
-  Vist us at: <br>GBurgers
-  GBurgers@gmail.com <br>
-    </main>
+     <section id="offpage">
+  <h3> Off-Page SEO</h3>
+  <ul id="seo-list">
+    <li><strong>Backlinks:</strong> <a href="https://goodburger.com">https://goodburger.com</a></li>
+    <li><strong>Social Media:</strong> You can fin us on Facebook, twitter and Whatsapp.</li>
+    <li><strong>Local SEO:</strong> Optimise your website for local search if applicable.</li>
+  </ul>
+  <button id="hide-btn">Hide Tips</button>
+  <button id="show-btn" style="display:none;">Show Tips</button>
+</section> 
 
   <div class="footer">  <footer>Good Burger Restuarant &copy; 2025 All rights reserved</footer></div>
+  <script src="seo.js"></script>
 </body>
 </html>
